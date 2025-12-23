@@ -1,0 +1,59 @@
+/* -------------------------------
+   Global Page Styling
+-------------------------------- */
+.main {
+    padding: 2rem 3rem;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 600;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+h2,
+h3 {
+    margin-top: 2rem;
+}
+
+/* -------------------------------
+   Metric Cards
+-------------------------------- */
+[data-testid="metric-container"] {
+    background-color: #0e1117;
+    border: 1px solid #262730;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/* -------------------------------
+   Section Separation
+-------------------------------- */
+section {
+    margin-bottom: 2.5rem;
+}
+
+/* -------------------------------
+   Tables
+-------------------------------- */
+[data-testid="stDataFrame"] {
+    border-radius: 10px;
+}
+
+/* -------------------------------
+   Sidebar
+-------------------------------- */
+.css-1d391kg {
+    padding-top: 2rem;
+}
+
+/* -------------------------------
+   Remove Streamlit Footer
+-------------------------------- */
+footer {
+    visibility: hidden;
+}
